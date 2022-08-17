@@ -7,11 +7,14 @@ public class BMICalculator {
 
 		float userHeight, userWeight, userBMI;
 
-		System.out.println("Your height in m: ");
+		System.out.println("Your height in inches: ");
 		userHeight = keyboard.nextFloat();
-		System.out.println("Your weight in kg: ");
+		System.out.println("Your weight in pounds: ");
 		userWeight = keyboard.nextFloat();
-		userBMI = userWeight / ( userHeight * userHeight);
+		/* Metric calculations:
+		userBMI = userWeight / (userHeight * userHeight); */
+		/* Imperial calculations: */
+		userBMI = ((userWeight / userHeight) / userHeight) * 703;
 		System.out.println("\nYour BMI is " + userBMI);
 
 	}
