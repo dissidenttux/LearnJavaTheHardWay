@@ -1,7 +1,8 @@
 public class WhatIf {
 	public static void main( String[] args ) {
+
 		int people = 20;
-		int cats = 30;
+		int cats = 20;
 		int dogs = 15;
 
 		if (people < cats) {
@@ -35,3 +36,13 @@ public class WhatIf {
 		}
 	}
 }
+
+/* WHAT YOU SHOULD DO ON YOUR OWN
+	1. The if statement is a programming conditional statement that, if proved true, performs a function.
+	2. The purpose of the curly braces in an if statement is to separate the conditional parto from the
+		function it performs.
+	3. n/a
+
+
+
+*/
