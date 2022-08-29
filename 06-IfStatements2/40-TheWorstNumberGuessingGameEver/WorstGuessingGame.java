@@ -15,9 +15,9 @@ public class WorstGuessingGame {
 
     // logical success determiner
     if (numGuess == numSecret) {
-      System.out.println("Good job, it was " + numGuess + ". :)");
+      System.out.println("Good job, it was " + numSecret + ". :)");
     } else {
-      System.out.println("Got you! No, it was actually " + numGuess + ".");
+      System.out.println("Got you! No, it was actually " + numSecret + ".");
     }
 
   }
