@@ -7,8 +7,8 @@ public class Dice {
 
     int diceRoll, diceRoll2;
 
-    diceRoll = 1 +dice.nextInt(5); // generates one of six numbers from 1-6
-    diceRoll2 = 1 +dice.nextInt(5);
+    diceRoll = 1 + dice.nextInt(5); // generates one of six numbers from 1-6
+    diceRoll2 = 1 + dice.nextInt(5);
 
     // prompts
     System.out.println("Let's roll!\n");
