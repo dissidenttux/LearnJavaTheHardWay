@@ -10,12 +10,12 @@ public class FortuneCookie {
     // Index for fortune values
     numFortune = rand.nextInt(5);
     // Texan lottery numbers are generated from 1-54
-    numLotto1 = 1 + rand.nextInt(53);
-    numLotto2 = 1 + rand.nextInt(53);
-    numLotto3 = 1 + rand.nextInt(53);
-    numLotto4 = 1 + rand.nextInt(53);
-    numLotto5 = 1 + rand.nextInt(53);
-    numLotto6 = 1 + rand.nextInt(53);
+    numLotto1 = 1 + rand.nextInt(54);
+    numLotto2 = 1 + rand.nextInt(54);
+    numLotto3 = 1 + rand.nextInt(54);
+    numLotto4 = 1 + rand.nextInt(54);
+    numLotto5 = 1 + rand.nextInt(54);
+    numLotto6 = 1 + rand.nextInt(54);
 
     if (numFortune == 0) {
       System.out.println("A dubious friend may be an enemy in camouflage.");
