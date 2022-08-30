@@ -18,6 +18,11 @@ public class ThreeCardMonte {
     numSecret = 1 + rand.nextInt(3); // 1-3
 
     // user prompt
+    System.out.println("You slide up to Fast Eddie's cup table and plop down your cash." +
+    "\nHe glances at you out of the corner of his eye and starts shuffling." +
+    "\nHe lays down three cups." +
+    "\nOne Ball. Three cups. One Guess. One Chance.");
+
     System.out.println("Which cup has the ball under it?\n");
     System.out.println("\t###\t###\t###");
     System.out.println("\t###\t###\t###");
