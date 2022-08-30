@@ -10,7 +10,7 @@ public class OneShotHilo {
     int numGuess, numSecret;
 
     // logical imperative for determining the secret guessing number
-    numSecret = 1 + numRand.nextInt(99); // generates a number between 1-100
+    numSecret = 1 + numRand.nextInt(100); // generates a number between 1-100
 
     // user prompts
     System.out.println("I'm thinking of a number between 1-100... try it!");
