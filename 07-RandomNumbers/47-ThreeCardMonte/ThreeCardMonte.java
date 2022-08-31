@@ -31,6 +31,7 @@ public class ThreeCardMonte {
     System.out.println("");
     System.out.print("> ");
     numGuess = kb.nextInt();
+    kb.close();
 
     // exit prompt
     if (numGuess == numSecret) {
