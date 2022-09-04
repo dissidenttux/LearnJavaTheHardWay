@@ -15,7 +15,7 @@ public class CountingWhile {
     }
 
     /*
-     * 1. What does n++ do? Remove it and see what happens. (Then put it back.)
+     * 1. What does dn++ do? Remove it and see what happens. (Then put it back.)
      *    (Answer like so here)
      * 
      * 2. Change the code so that the loop repeats ten times instead of five.
