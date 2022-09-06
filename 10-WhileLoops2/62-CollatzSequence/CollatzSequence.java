@@ -5,21 +5,31 @@ public class CollatzSequence {
 
     Scanner kb = new Scanner(System.in);
 
-    int numInput;
+    // numInput = the number the user inputs, numSteps = the number of steps the machine took
+    int numInput, numSteps = 0;
 
+    // user input
+    System.out.print("Starting number: ");
     numInput = kb.nextInt();
+    kb.close();
 
-    while (numInput % 2 == 0) {
-      numInput /= 2;
-      System.out.print("\t" + numInput);
-      System.out.println();
+    // do not stop this loop until the sequence's target (userInput) reaches 1
+    while (numInput != 1) {
+      if (numInput % 2 == 0) { // if the number is the even, use this sequence
+        numInput /= 2;
+        System.out.print("\t" + numInput);
+        numSteps++;
+      } else { // if the number is the odd, use this sequence
+        numInput *= 3;
+        numInput += 1;
+        System.out.print("\t" + numInput);
+        numSteps++;
+      }      
     }
 
-    while (numInput % 2 != 0) {
-      numInput *= 3;
-      numInput += 1;
-      System.out.print("\t" + numInput);
-      System.out.println();
-    }
+    // user prompts final
+    System.out.println();
+    System.out.println("\nTerminated after " + numSteps + " steps.");
+
   }
 }
